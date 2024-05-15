@@ -86,7 +86,7 @@ Creer un fichier **build-component.js**
           ];
         
           await fs.ensureDir('widget');
-          await concat(files, 'widget/news-widget.js');
+          await concat(files, 'widget/webco-widget.js');
     }
     build();
 ```
@@ -112,7 +112,7 @@ Creer un fichier index.html dans le dossier widget
     <body>
       <webco-widget></webco-widget>
       
-      <script type="text/javascript" src="news-widget.js"></script>
+      <script type="text/javascript" src="webco-widget.js"></script>
     </body>
     </html>
 ```
