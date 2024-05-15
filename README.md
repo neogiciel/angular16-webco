@@ -80,8 +80,6 @@ Creer un fichier **build-component.js**
         const files = [
             './dist/angular-web-component/runtime.js',
             './dist/angular-web-component/polyfills.js',
-            './dist/angular-web-component/es2015-polyfills.js',
-            './dist/angular-web-component/scripts.js',
             './dist/angular-web-component/main.js'
           ];
         
